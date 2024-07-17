@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+   
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;  
+}
+
+.heder {
+    background: #fff;
+}
+
+.logo {
+    padding: 50px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heder-information ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.heder-information ul :hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+   
+.heder-list-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #8c8a8a;
+    margin-bottom: 38px;
+    transition: 800ms;
+    margin: 10px;
+}
+
+.main-box {
+    display: flex;
+    gap: 30px;    
+}
+
+.main-box-left {
+    background: url(../img/grey.jpg);
+    max-width: 730px; 
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+
+.main-box-right {
+    background: url(../img/grey2.jpg);
+    max-width: 350px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-box-title {
+    font-family:'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581b7;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.main-box-text {
+    font-family: 'Roboto';
+    max-height: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+    margin-right: 95px;
+    margin-bottom: 51px;
+    margin-left: 40px;
+    
+}
+
+.main-box-right h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581b7;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.main-box-right p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+    margin-right: 24px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.contact {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+}
+
+.call {
+    margin-bottom: 35px;
+    margin-left: 40px;
+}
+
+.write {
+    margin-left: 40px;
+}
+
+.footer-box {
+    background: url(../img/grey3.jpg); 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 46px;
+}
+
+.footer-box-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+    gap: 15px;
+}
+
+.center {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;    
+}
+
+.number {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    color: #808080;
+}
+
+@media(max-width:1140px) {
+    .heder-fotos {
+        width: 100%;
+    }
+}
+
+@media(max-width:900px) {
+    .heder-information-list {
+        flex-wrap: wrap;
+        justify-content:center ;
+    }
+    
+    .main-box-text {
+        max-height: 500px;
+        overflow: auto;
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:600px) {
+    .main-box {
+        flex-direction: column;
+    }
+    
+    
+    
+    .footer-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-box-section {
+        text-align: center;
+    }
+    
+    .main-box-title {
+        text-align: center;
+    }
+    
+    .main-box-right {
+        text-align: center;
+        max-width: 750px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+   
+    
+
